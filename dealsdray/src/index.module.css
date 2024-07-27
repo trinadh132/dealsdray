@@ -1,0 +1,69 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    flex-wrap: wrap;
+  }
+  
+  .leftlink, .rightlink {
+    display: flex;
+    align-items: center;
+  }
+  
+  .leftlink .link, .rightlink .logout {
+    margin-right: 2rem; /* Increased gap between links */
+    text-decoration: none;
+    font-size: 1.5rem; /* Increased font size */
+    color: black;
+    transition: color 0.3s; /* Added transition for hover effect */
+  }
+  
+  
+  .rightlink,.name{
+    margin-right: 1.5rem; /* Increased gap between username and logout */
+    font-size: 1.2rem; /* Increased font size */
+    color: #333;
+  }
+  
+
+  .leftlink,.rightlink{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 3.5rem;
+  }
+  .leftlink{
+    margin-left:1.5% ;
+  }
+.homehead{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+.link,.name,.logout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+}
+.logout:hover{
+  cursor: pointer;
+  background-color:#d03a08;
+  color: white;
+  transform: scale(1.05);
+}
+.link:hover{
+  background-color:#007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+  

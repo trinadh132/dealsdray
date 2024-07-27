@@ -1,0 +1,116 @@
+.container {
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .secondtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* This helps in wrapping items in case of smaller screen sizes */
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds consistent gap between search input and button */
+  }
+  
+  .searchInput {
+    padding: 5px;
+  }
+  
+  .createButton {
+    padding: 5px 10px;
+    background-color: #007bff; /* Blue color matching the theme */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .createButton:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+  }
+  
+  .totalCount {
+    margin: 0 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds consistent gap between pagination buttons and page info */
+  }
+  
+  .pageButton {
+    padding: 5px 10px;
+    background-color: #007bff; /* Blue color matching the theme */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .pageButton:disabled {
+    background-color: #d6d6d6; /* Grey color for disabled buttons */
+    cursor: not-allowed;
+  }
+  
+  .pageInfo {
+    margin: 0 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+  
+  .image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%; /* Makes the image circular */
+  }
+.edit{
+    padding: 5px 10px;
+    background-color: #007bff; /* Blue color matching the theme */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.edit:hover{
+    background-color: #0056b3;
+}
+.delete{
+    padding: 5px 10px;
+    background-color:red; /* Blue color matching the theme */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.delete:hover{
+    background-color:crimson;
+}
+.tableaction button{
+    margin-left: 10px;
+}
